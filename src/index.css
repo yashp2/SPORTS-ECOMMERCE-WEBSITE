@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-img{
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/a9428243872413.580535e3c4ee1.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.light-black{
+    background-color: rgba(0,0,0, 0.5);
+}
+.img-1{
+    background-size: cover;
+    background-image: url('https://cdn.dribbble.com/users/3907547/screenshots/11635607/media/b2468d020c802f04a341451c22823f25.jpg?compress=1&resize=1200x900&vertical=top');
+}
+.img{
+    background-size: cover;
+    background-image: url('https://cdn.dribbble.com/users/2777436/screenshots/6641079/untitled-4-01_4x.jpeg?compress=1&resize=1200x900&vertical=top');
+}
+
+
+.tennis{
+    background-image: url('https://cdn.dribbble.com/users/338126/screenshots/17404175/media/1fd9d134cc075e308d322e6de3e11422.png?compress=1&resize=1200x900&vertical=top');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.img-2{
+     background-image: url('https://cdn.dribbble.com/users/2085015/screenshots/15328856/media/14b5dfb280b895f207384168d60e96a0.png?compress=1&resize=1200x900&vertical=top');
+     background-size: cover;
+    }
+
+ .cricket{
+   background-image: url('https://cdn.dribbble.com/users/2174971/screenshots/11741336/media/4fde044a885c3299cbf3cdb570aa91ea.jpg?compress=1&resize=1200x900&vertical=top');     
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+ }   
+
+ .img-3{
+     background-image: url('https://cdn.dribbble.com/users/583305/screenshots/4593282/media/4fde0b91f703699cd4f3921d673c67eb.jpg?compress=1&resize=800x600&vertical=top');
+     background-size: cover;
+ }
+ 
+ .football{
+
+    background-image: url('https://cdn.dribbble.com/users/334782/screenshots/10040763/media/00b4790c5ccf1e31d173e49c79ac50e7.jpg?compress=1&resize=1200x900&vertical=top');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;    
+ }
+
+ .img-4{
+     background-image: url('https://cdn.dribbble.com/users/43342/screenshots/12664713/media/3e4a9cab73827418927bfd364d42da20.jpg?compress=1&resize=1200x900&vertical=top');
+     background-size: cover;
+ }
+
+ .card{
+  box-shadow:2px 4px 12px #1b1b1b10;  
+}
+  .football-bg{
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      background-image: url('https://i.pinimg.com/736x/f5/5d/8e/f55d8e6cf5378cfa230ac91a0aaead3d.jpg');
+  }
+ .badminton-bg{
+     background-size: cover;
+         background-image: url('https://i.pinimg.com/originals/03/d6/27/03d62726d2bdae4cf378ba88ae13a38d.gif');
+ }
+
+ .Tennis-bg{
+   background-image: url('https://cdn.dribbble.com/users/760333/screenshots/6768087/wimbledon_4x.png?compress=1&resize=400x300');
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+ .special{
+     background-position: center;
+     background-color: #0079ba;
+     background-repeat: no-repeat;
+     background-size: contain;
+       background-image: url('https://contents.mediadecathlon.com/s919446/k$8543d1a8ecfd03ab173ecdbd0e4ab3c6/jersey%20main%20banner%20mobile.jpg?format=auto&quality=70&f=1680x0');
+     }
+ @media screen and (max-width:1000px) {
+    
+.bg-img{
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/7608bf71548993.5bc8d166cc363.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+}
